@@ -1,0 +1,6 @@
+Metric,Model A (Scratch),Model B (SSL Fine-Tuned)
+Precision,57.45%,20.36%
+Recall,25.71%,53.33%
+F1-Score,35.53%,29.47%
+ROC-AUC,73.04%,53.40%
+Accuracy,81.37%,49.05%

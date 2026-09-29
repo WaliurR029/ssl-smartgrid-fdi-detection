@@ -1,0 +1,40 @@
+# Virtual environments
+venv/
+venv_gpu/
+env/
+.env
+
+# Python caches & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+.pytest_cache/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# IDE & Editor configurations
+.vscode/
+.idea/
+
+# Large Datasets (keep raw and heavy binary files local)
+data/fdi_Detection/
+data/SSL_pretraining/
+data/Scalability_testing/
+data/processed_downstream/*.npz
+
+# Model weights & Checkpoints (all .pth, .pt, and binary weights)
+saved_models/*.pth
+saved_models/*.pt
+*.bin
+*.onnx
+
+# System & OS Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Logs & temporary files
+*.log

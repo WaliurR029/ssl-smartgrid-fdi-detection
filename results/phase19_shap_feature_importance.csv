@@ -1,0 +1,13 @@
+Feature,Feeder,Measurement,Mean_Abs_SHAP
+3 kV Feeder_current_A,3 kV Feeder,current_A,0.006845617444181877
+8 kV Feeder_frequency_Hz,8 kV Feeder,frequency_Hz,0.006306939228468193
+8 kV Feeder_current_A,8 kV Feeder,current_A,0.004833455276329644
+5 kV Feeder_current_A,5 kV Feeder,current_A,0.004538161142218354
+12 kV Feeder_frequency_Hz,12 kV Feeder,frequency_Hz,0.004001610109178083
+12 kV Feeder_current_A,12 kV Feeder,current_A,0.003911011616469643
+8 kV Feeder_voltage_kV,8 kV Feeder,voltage_kV,0.0019365709215634578
+3 kV Feeder_voltage_kV,3 kV Feeder,voltage_kV,0.0014181134324587434
+3 kV Feeder_frequency_Hz,3 kV Feeder,frequency_Hz,0.00130045715947992
+5 kV Feeder_voltage_kV,5 kV Feeder,voltage_kV,0.0012378480799695583
+5 kV Feeder_frequency_Hz,5 kV Feeder,frequency_Hz,0.0006903623744650391
+12 kV Feeder_voltage_kV,12 kV Feeder,voltage_kV,0.000501045030835701
