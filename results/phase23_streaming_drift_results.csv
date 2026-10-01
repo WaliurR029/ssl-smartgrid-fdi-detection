@@ -1,0 +1,6 @@
+Stream_Batch,Drift_Magnitude_%,Environment_Scenario,Window_Count,Attack_Count,False_Alarm_Rate_%,Attack_Recall_%,Latency_ms_per_window
+1,0.0,Baseline Calibration (Zero Drift),210,30,97.22,30.0,1.04
+2,5.0,Mild Diurnal Load Shift (+5%),210,30,59.44,100.0,0.055
+3,12.0,Moderate Peak-Hour Fluctuation (+12%),210,90,0.0,0.0,0.035
+4,20.0,Severe Harmonic / Ambient Noise (+20%),210,30,0.0,0.0,0.036
+5,35.0,Critical Concept Drift Bound (+35%),212,30,0.0,0.0,0.088
