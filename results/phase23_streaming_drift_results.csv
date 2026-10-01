@@ -1,6 +1,6 @@
-Stream_Batch,Drift_Magnitude_%,Environment_Scenario,Window_Count,Attack_Count,False_Alarm_Rate_%,Attack_Recall_%,Latency_ms_per_window
-1,0.0,Baseline Calibration (Zero Drift),210,30,97.22,30.0,1.04
-2,5.0,Mild Diurnal Load Shift (+5%),210,30,59.44,100.0,0.055
-3,12.0,Moderate Peak-Hour Fluctuation (+12%),210,90,0.0,0.0,0.035
-4,20.0,Severe Harmonic / Ambient Noise (+20%),210,30,0.0,0.0,0.036
-5,35.0,Critical Concept Drift Bound (+35%),212,30,0.0,0.0,0.088
+Stream_Batch,Drift_%,Scenario,Scratch_Static_F1_%,SSL_Static_F1_%,Scratch_Static_FAR_%,SSL_Static_FAR_%,Scratch_Adaptive_F1_%,SSL_Adaptive_F1_%,Scratch_Adaptive_FAR_%,SSL_Adaptive_FAR_%,Scratch_AUC_%,SSL_AUC_%,Latency_Scratch_ms,Latency_SSL_ms
+1,0.0,Nominal Baseline (0% Drift),0.0,8.41,0.0,97.22,0.0,0.0,0.0,0.0,79.26,3.63,0.029,0.029
+2,2.0,Mild Diurnal Drift (2% Drift),0.0,29.56,0.56,79.44,0.0,0.0,1.11,0.0,69.93,84.0,0.029,0.028
+3,5.0,Moderate Load Shift (5% Drift),25.9,41.67,25.83,4.17,24.64,44.44,25.83,6.67,55.96,63.81,0.029,0.029
+4,10.0,High Harmonic Drift (10% Drift),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,72.85,44.91,0.029,0.028
+5,15.0,Extreme System Shift (15% Drift),0.0,0.0,0.0,0.0,0.0,0.0,3.89,0.0,68.31,34.63,0.029,0.028
